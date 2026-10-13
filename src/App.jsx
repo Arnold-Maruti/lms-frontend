@@ -4,7 +4,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
-import img1 from './assets/Girlreadingbook.png'
+import img1 from './assets/hero-3.png'
+
 
 
 
@@ -27,6 +28,15 @@ function App() {
          <img src={img1} alt="Hero" />
        </div>
       </div> */}
+      <div className="hero-contents">
+      <div className="hero-text">
+          <h3>Studying German online has now been made easier</h3>
+          <p>Learn German step by step with engaging lessons and practical exercises</p>
+      </div>
+      <div className="hero-image">
+        <img src={img1} alt="Hero image" />
+      </div>
+      </div>
     </div>
 
     </>

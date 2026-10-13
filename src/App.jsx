@@ -15,16 +15,18 @@ function App() {
     <>
     <div className="hero">
       <Navbar />
-      <div className="hero-content">
+      {/* <div className="hero-content">
        <div className="hero-text">
         <h1>Welcome to</h1>
         <h1>Learn </h1>
+        <h1>German</h1>
+        <h1><p>with</p> Elsy</h1>
         <p>Learn and grow with our Learning Management System.</p>
        </div>
        <div className="hero-image">
          <img src={img1} alt="Hero" />
        </div>
-      </div>
+      </div> */}
     </div>
 
     </>

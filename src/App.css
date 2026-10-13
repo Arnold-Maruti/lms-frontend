@@ -9,20 +9,19 @@ body {
 
 a {
   text-decoration: none;
-  color: black
+  color: white;
   ;
 }
 .hero {
   position: relative;
   height: 62vh;
   /* background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover; */
-  background: linear-gradient(to right, #f5c095, #f5c095);
+  background: linear-gradient(to right, #49BBBD, #49BBBD);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
-  border-radius: 0 0 50% 50% / 0 0 8vw 8vw;
   
 }
 
@@ -31,33 +30,32 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  border-radius: 25px;
-  margin: 0px 50px;
+  margin: 0px 40px;
   width: calc(100% - 100px);
-  z-index: 1000;
+  /* z-index: 1000; */
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 
   padding: 0.5rem 0.7rem;
 
   /* Transparent gradient using your #f5c095 color */
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(245, 192, 149, 0.88),
     rgba(245, 192, 149, 0.65),
     rgba(245, 192, 149, 0.88)
-  );
+  ); */
 
   /* Glass effect */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); */
 
   /* Slight separation from the page */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
 
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); */
 }
 
 .navbar .logo {
@@ -73,7 +71,7 @@ a {
 
 .links {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .links a {
@@ -83,25 +81,9 @@ a {
 }
 
 .links a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   transform: translateY(-2px);
 }
 
 
-.hero-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin: 100px 50px;
-  width: 100%;
-}
-.hero-image img {
-  margin: 0px;
-  width: 100%;
-  height: 540px;
-  object-fit: cover;
-  max-width: 500px;
-  /* border-radius: 20px; */
-  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
-}
+
